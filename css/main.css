@@ -16,7 +16,8 @@ img {
 
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
-  display: contents;
+  display: contents;grid-area: banner;
+
 }
 
 body {
@@ -25,10 +26,6 @@ body {
   grid-template-areas:
     "banner banner"
     "section1 section2";
-}
-
-header {
-  grid-area: banner;
 }
 
 figure:first-of-type {
