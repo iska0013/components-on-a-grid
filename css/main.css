@@ -16,3 +16,23 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
 }
+
+body {
+  display: grid;
+  margin: 0;
+  grid-template-areas:
+    "banner banner"
+    "section1 section2";
+}
+
+header {
+  grid-area: banner;
+}
+
+figure:first-of-type {
+  grid-area: section1;
+}
+
+figure:nth-of-type(2) {
+  grid-area: section2;
+}
