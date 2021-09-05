@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -37,4 +37,8 @@ figure:first-of-type {
 
 figure:nth-of-type(2){
   grid-area: section2;
+}
+
+h1 {
+  font-family: "Patua One", sans-serif;
 }
