@@ -93,4 +93,11 @@ a {
 h2 {
   color: #30658d;
   font-family: "Patua One", serif;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
